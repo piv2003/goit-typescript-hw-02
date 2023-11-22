@@ -5,4 +5,4 @@ if (typeof some === "string") {
     str = some;
 }
 
-export {str};
+export {};
