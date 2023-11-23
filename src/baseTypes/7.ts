@@ -3,9 +3,13 @@
   і повертає boolean значення, що вказує, чи це день робочий чи вихідний.
 */
 
-type Flag = boolean;
-
-function isWeekend(weekday: string): boolean {
-  
-  return Flag;
+enum DayOfWeek {
+  Sunday = "SUNDAY",
+  Monday = "MONDAY",
+  Tuesday = "TUESDAY",
+  Wednesday = "WEDNESDAY",
+  Thursday = "THURSDAY",
+  Friday = "FRIDAY",
+  Saturday = "SATURDAY",
 }
+
