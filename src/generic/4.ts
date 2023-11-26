@@ -5,7 +5,7 @@
 interface SomeInterface {
   name: string;
 }
-class Component<T extends SomeInterface> {
+class Component<T> {
   constructor(public props: T) {}
 }
 
